@@ -8,4 +8,5 @@ def power(x: float, y:int) -> float:
         x, power = x * x, power >> 1
     return result
 
-print(power(2.0, 13))
+print(power(2.0, 5))
+
