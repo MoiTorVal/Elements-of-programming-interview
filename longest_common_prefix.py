@@ -7,11 +7,13 @@ def longestCommonPrefix(strs: list[str]) -> str:
 
         for i in range(min_length):
             cur_char = strs[0][i]
-            if all(word[i] == cur_char for word in strs):
+            if all(cur_char == word[i] for word in strs):
                 common_prefix += cur_char
             else:
+                print('break')
                 break
 
         return common_prefix
 
 print(longestCommonPrefix(strs))
+
