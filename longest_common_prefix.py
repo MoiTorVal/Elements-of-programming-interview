@@ -1,4 +1,3 @@
-# output 'fl'
 strs = ['flower', 'flow', 'flight']
 
 def longestCommonPrefix(strs: list[str]) -> str:
