@@ -10,3 +10,4 @@ def power(x: float, y:int) -> float:
 
 print(power(2.0, 5))
 
+# sorted squared array
