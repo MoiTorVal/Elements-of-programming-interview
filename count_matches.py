@@ -2,7 +2,6 @@
 # output = 6
 
 def numberOfMatches(n: int) -> int: 
-    n -= 1
-    return n 
+    return n - 1
 
 print(numberOfMatches(7))
