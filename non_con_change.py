@@ -13,5 +13,3 @@ def change_coin(coins: list) -> int:
 
     return change
 
-print(change_coin(coins))
-
